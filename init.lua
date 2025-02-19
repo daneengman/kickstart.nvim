@@ -90,7 +90,6 @@ P.S. You can delete this when you're done too. It's your config now! :)
 
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-vim.opt.shadafile = '/afs/andrew/usr/dengman/private/main.shada'
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
@@ -230,7 +229,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
-  { "github/copilot.vim" },
+  { 'github/copilot.vim' },
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
   -- keys can be used to configure plugin behavior/loading/etc.
